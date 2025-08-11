@@ -8,16 +8,19 @@
   </head>
   <body>
     <div id="wrapper">
-      <input type="number" name="firstNumber" id="firstNumber">
-      <input type="number" name="secondNumber" id="secondNumber">
+      <input type="number" name="firstNumber" id="firstNumber" />
+      <input type="number" name="secondNumber" id="secondNumber" />
       <div id="mathOps">
-        <p class="numOps">X</p>
-        <p class="numOps">/</p>
-        <p class="numOps">+</p>
-        <p>-</p>
+        <p class="numOps" data-ops="kali">X</p>
+        <p class="numOps" data-ops="bagi">/</p>
+        <p class="numOps" data-ops="tambah">+</p>
+        <p class="numOps" data-ops="kurang">-</p>
       </div>
-      <input type="button" value="Hitung">
-      <!-- nanti buat kotak kosong untuk menampung hasilnya, dan taruh di sini -->
+      <input type="button" value="Hitung" />
+      <!-- kotak hasil -->
+      <div class="hasil">
+        <p>lorem</p>
+      </div>
     </div>
     <script src="script.js"></script>
   </body>
