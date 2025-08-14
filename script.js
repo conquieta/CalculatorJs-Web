@@ -1,12 +1,11 @@
 console.log("Hello World!");
 
-// const num1 = document.getElementById("firstNumber");
-let num1 = 10;
-let num2 = 5;
-const operasiMtk = "bagi";
-// const num2 = document.getElementById("secondNumber");
-// const operasiMtk = document.getElementsByClassName("numOps");
-let hasil; // Untuk menyimpan hasil perhitungan
+const num1 = document.getElementById("firstNumber");
+const num2 = document.getElementById("secondNumber");
+const operasiMtk = document.getElementsByClassName("numOps");
+const hitung = document.getElementById("hitung");
+const kotakJawaban = document.getElementsByClassName("hasil");
+let hasil; // variable untuk menyimpan hasil perhitungan
 
 switch (operasiMtk) {
   case "tambah":
@@ -33,4 +32,4 @@ switch (operasiMtk) {
     break;
 }
 
-console.log(`Hasil perhitungan ${hasil}`);
+operasiMtk.addEventListener(click, function () {});
